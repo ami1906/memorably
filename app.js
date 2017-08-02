@@ -2,11 +2,11 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-var port = 3000;
+var port = 3030;
 
 // Mongoose connection with mongodb
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://<uname>:<password>@ds139322.mlab.com:39322/aufinancex')
+mongoose.connect('mongodb://mituser:mit123@ds129593.mlab.com:29593/mitmemories')
     .then(() => { // if all is ok we will be here
       console.log('Start');
     })
