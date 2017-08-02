@@ -4,18 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KrunalLathiya/node-js-express-tutorial.git"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KrunalLathiya/node-js-express-tutorial/issues"
-  },
-  "homepage": "https://github.com/KrunalLathiya/node-js-express-tutorial#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
