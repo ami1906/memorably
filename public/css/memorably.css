@@ -1,6 +1,9 @@
+/* Common CSS  */
 h2{
   margin-bottom: 20px;
 }
+
+/* Navigaion CSS */
 .navbar-brand{
   padding:0;
 }
@@ -22,7 +25,7 @@ h2{
   border: 1px solid #FF772B;
 }
 
-.active a{
+.navbar-inverse .active a{
   background-color: #fff !important;
   color: #FF772B !important;
 }
@@ -33,19 +36,17 @@ h2{
   border: 1px solid #FF772B;
 }
 
-
-
+/* Body CSS */
 .body-content{
   margin-top: 53px;
 }
 
-
+/* Home Page CSS */
 .home-block{
   background-color: #FF772B;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 
 .memory-poster span{
   display:block;
@@ -73,6 +74,7 @@ h2{
   text-decoration: none;
 }
 
+/* Shop Page CSS */
 .shop-block{
   text-align: center;
   color: #FF772B;
@@ -95,6 +97,7 @@ h2{
   margin: 5px auto ;
 }
 
+/* Story Page CSS */
 .story-block{
   padding:30px;
   background-color: #FF772B;
@@ -103,6 +106,7 @@ h2{
   text-transform: uppercase;
 }
 
+/* About Page CSS */
 .about-block{
   color:#FF772B;
   text-align:center;
@@ -114,7 +118,6 @@ h2{
 
 .about-block .instagram{
   width:45px;
-  //margin-top: 10px;
 }
 
 .about-block .social-id{
@@ -123,7 +126,7 @@ h2{
   display: inline;
 }
 
-
+/* Responsive CSS */
 @media only screen and (min-width: 1024px) {
   #navbar{
     float:right !important;
